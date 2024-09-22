@@ -70,3 +70,90 @@
 //  let myNewValue = String(myValue);
 //  console.log(typeof myNewValue);
 
+
+// ********Datatype Comparison in js*********
+console.log("1"+3+7);
+console.log(1+3+"7");
+
+
+
+// console.log(null<0);
+// console.log(null>0);
+// console.log(null>=0);
+// console.log(null<=0);
+// console.log(null==0);
+
+// console.log(null== undefined);
+// console.log(typeof null);
+
+
+
+// let myName = "Asfiya";
+// let myNewName = "Asfiya Rudbar";
+// myName = myNewName ;
+// console.log(myName);
+
+// let myArray = ["ifra" , "Asfiya", "rudbar"];
+// console.log(myArray);
+// let myNewArray = myArray.pop();
+// console.log(myArray);
+
+
+// let myName = "Asfiya";
+// let myNewName = "Asfiya Rudbar";
+// console.log(myName[0]);
+// console.log(myName.__proto__);
+// console.log(myName);
+
+
+// // kis index pr kon sa character h
+// console.log(myName.charAt(3)); 
+
+// //  kon sa character kis index pr h 
+// console.log(myName.charAt(r));
+
+
+
+// console.log(myName.substring(0,6));
+
+
+// *************Number in js*************
+// let myNum = 20;
+// console.log(myNum.toString().length);
+// console.log(myNum.toFixed(2));
+// console.log(myNum.toPrecision(3));
+
+// let mynum = 20.34;
+// console.log(mynum.toString().length);
+// console.log(mynum.toFixed(2));
+// console.log(mynum.toPrecision(3));
+
+
+// ************Maths in js*********
+// console.log(math.abs(4));
+// console.log(math.floor(4.7));
+// console.log(Math.floor(math.random()*10)+1);
+
+// const min = 1;
+// const max =10;
+// console.log(Math.floor(Math.random(max-min)*10)+1);
+// console.log(Math.random());
+
+// ******dice roll*****
+// console.log(Math.floor(Math.random()*6)+1);
+
+
+// // ******Change background color******
+
+// console.log(`rgb(${Math.random()*255})`);
+
+
+
+
+
+function changeColor() {
+  document.body.style.backgroundColor = `rgb(${Math.floor(
+    Math.random() * 255
+  )},${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)})`;
+}
+
