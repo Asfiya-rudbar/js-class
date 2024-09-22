@@ -157,3 +157,31 @@ function changeColor() {
   )},${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)})`;
 }
 
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="changeColor()">change</button>
+    
+    <script >
+
+function changeColor() {
+  document.body.style.backgroundColor = `rgb(${Math.floor(
+    Math.random() * 255
+  )},${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)})`;
+}
+    </script>
+</body>
+</html>
+
